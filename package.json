@@ -1,0 +1,31 @@
+{
+  "name": "houdinithepomksy",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 6969",
+    "start": "next start",
+    "build": "next build",
+    "test": "jest",
+    "eject": "next eject",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "format": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
+  },
+  "dependencies": { 
+    "react": "^18.2.0",
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/next": "^9.0.0",
+    "@types/node": "^20.4.2",
+    "@types/react": "^18.0.28",
+    "eslint-plugin-react-native": "^4.0.0",
+    "fs": "^0.0.1-security",
+    "next": "^13.4.9",
+    "nodemon": "^2.0.21",
+    "typescript": "^5.1.6"
+  }
+}
